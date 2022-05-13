@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+  font-weight:bold;
+ 
+}
+
+.grid{
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill,440px);
+  grid-template-rows: 3,30px;
+  
+  
+  
+}
+.qweqwe{
+padding: 40px;
+margin-left: 40px;
+}
+.app {
+text-align: center;
+ display: grid;
+ grid-template-columns:10% 5% 55% 15% 15% ;
+ font: 'Poppins', sans-serif;
+ background-color: #f4f6f7;
+ color: black;
+}
+.menu{ 
+  
+border:0.3px solid grey; ;
+text-align: center;
+  grid-column:1;
+ 
+padding: 15px;
+color: black;
+cursor: pointer;
+
+}
+
+.search{ 
+  text-align: center;
+  grid-column:2;
+  border-top: 0.3px solid grey; ;
+  border-bottom: 0.3px solid grey; ;
+  padding: 15px;
+color: black;
+cursor: pointer;
+
+}
+.logo{ 
+  text-align: center;
+  grid-column:3;
+  border-top:0.3px solid grey; ;
+  border-bottom: 0.3px solid grey; ;
+  padding: 15px;
+color: black;
+cursor: pointer;
+}
+.registration_login{ 
+  text-align: center;
+  grid-column:4;
+  border-top: 0.3px solid grey; ;
+  border-bottom: 0.3px solid grey; ;
+  padding: 15px;
+color: black;
+cursor: pointer;
+}
+.sumbit_your_site{ 
+  background-color: black;
+  text-align: center;
+  grid-column:5;
+  border: 0.3px solid grey; ;
+  padding: 15px;
+color: white;
+cursor: pointer;
+
+}
+
+.sumbit_your_site:hover{
+  background-color: gray;
+}
+
+.registration_login:hover{
+  color: gray;
+}
+.menu:hover{
+ color: gray;
+}
+
+
+
+  
+  .container-1 div{
+   padding: 15px;
+
+
+  }
+  .container-1{
+    background-color: #f4f6f7;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+.picture{
+flex: 0.5;
+}
+
+.filter_by{
+  flex: 2;
+  
+}
+.awards{
+  flex: 2;
+}
+.categories{
+  flex: 2;
+}
+.tags{
+  flex: 2;
+}
+.tecnologies{
+  flex: 2;
+}
+.colors{
+  flex: 2;
+}
+.countries{
+  flex: 2;
+}
+.space_bar{
+  flex: 20;
+}
+
+
+
+.awards:hover, 
+.categories:hover, .tags:hover,.tecnologies:hover,.colors:hover,.countries:hover {
+  border: 1px solid silver;cursor: pointer;
+}
+
+
+.containter-box{
+  
+    display: flex;
+    flex-wrap: wrap;
+   
+   justify-content: center;
+   
+
+}
+
+.box1{
+  width: 421.05px; height: 455.88px;
+
+  background-color: white;
+  margin: 15px;
+  font: 'Poppins', sans-serif;
+  display: inline-block; /* Строчно-блочный элемент */
+  overflow: hidden;
+  
+}
+
+
+.box2{
+  width: 421.05px; height: 455.88px;
+  background-color: white;
+  margin: 15px;
+}
+.box3{
+  width: 421.05px; height: 455.88px;
+  background-color: white;
+  margin: 15px;
+}
+.box4{
+  width: 421.05px; height: 455.88px;
+  background-color: white;
+  margin: 15px;
+}
+.box5{
+  width: 421.05px; height: 455.88px;
+  background-color: white;
+  margin: 15px;
+}
+.box6{
+  
+  width: 421.05px; height: 455.88px;
+  background-color: white;
+  margin: 15px;
+}
+
+
+.from_countrie_data{
+  
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.cell3{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+margin: 15px;
+}
+
+.cellbox{
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+}
+.piture_and_text{
+  display: flex;
+ 
+  
+  gap: 0.3rem;
+}
+.hp_dev_sotd{
+  display: flex;
+
+ 
+  gap: 0.3rem;
+}
+.name_work{
+  margin: 15px;
+  padding-top:30px ;
+}
+.background{
+  background-color: #f4f6f7;
+}
+
+.piture_autor{
+
+  border-radius: 20px;
+  
+}
+
+.hm{
+  
+  background-color: #9fd2d6;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 5px;
+}
+.dev {
+  background-color: #8154ef;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 5px;
+}
+.sotd{
+  background-color: #ff4e4e;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 5px;
+}
+
+.box_line{
+  display: flex;
+ 
+  width: 421.05px; height: 2px;
+ 
+  background-color: black;
+}
+
+
+.picture1:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
